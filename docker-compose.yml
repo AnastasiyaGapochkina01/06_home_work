@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  container:
+      build: ./
+      image: debian_for_local_usage:jessie
+      container_name: "old-debian"
+      tty: true
